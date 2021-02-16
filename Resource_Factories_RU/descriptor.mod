@@ -1,4 +1,4 @@
-version="1.10.*"
+version="1.0"
 tags={
 	"Balance"
 	"Historical"
@@ -7,3 +7,4 @@ tags={
 }
 name="Resource Factories (RU)"
 supported_version="1.10.*"
+picture="thumbnail.png"
