@@ -1,0 +1,72 @@
+buildings = {
+
+	# show_on_map:
+	#    if provincial = yes, then show_on_map = X is amount per each province
+	#    if provincial = no, then show_on_map = X is amount per state
+
+		steel_factory = {
+		show_on_map = 1
+		base_cost = 10000
+		icon_frame = 15
+		local_resources_steel = 15 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 8 # This is the max unlock level
+		shares_slots = no
+		value = 3
+	}
+	
+	rubber_factory = {
+		show_on_map = 1
+		base_cost = 10000
+		icon_frame = 16
+		local_resources_rubber = 15 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 8 # This is the max unlock level
+		shares_slots = no
+		value = 3
+	}
+	
+	aluminium_factory = {
+		show_on_map = 1
+		base_cost = 10000
+		icon_frame = 17
+		local_resources_aluminium = 15 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 8 # This is the max unlock level
+		shares_slots = no
+		value = 3
+	}
+	
+	tungsten_factory = {
+		show_on_map = 1
+		base_cost = 10000
+		icon_frame = 18
+		local_resources_tungsten = 15 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 8 # This is the max unlock level
+		shares_slots = no
+		value = 3
+	}
+	
+	chromium_factory = {
+		#show_on_map = 1
+		base_cost = 10000
+		icon_frame = 19
+		local_resources_chromium = 15 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 8 # This is the max unlock level
+		shares_slots = no
+		value = 3
+	}
+
+	oil_factory = {
+		#show_on_map = 1
+		base_cost = 10000
+		icon_frame = 10
+		local_resources_oil = 15 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 4 # This is the max unlock level
+		shares_slots = no
+		value = 3
+	}
+}
