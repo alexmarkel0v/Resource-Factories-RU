@@ -1,1 +1,1 @@
-# Resource-Factories_RU
+# Resource Factories (RUS) for HOI 4.
