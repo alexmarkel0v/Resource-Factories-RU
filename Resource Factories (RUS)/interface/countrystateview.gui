@@ -13,7 +13,7 @@ guiTypes = {
 	
 	positionType = {
 		name = "countrystateview_weathericons_position"
-		position = { x = 384 y= -31 }
+		position = { x = 384 y= 22 }
 	}
 
 	positionType = {
@@ -23,18 +23,18 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "countrystateview"
-		position = { x=-416 y=-709}
-		show_position = { x=-6 y =-709 }
+		position = { x=-416 y=-762}
+		show_position = { x=-6 y =-762 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
 		orientation = lower_left
-		size = { width=436 height=656 }
+		size = { width=436 height=709 }
 		
 		containerWindowType = {
 			name = "state_info_window"
 			position = { x = 0 y = 0 }
-			size = { width=780 height=656 }
+			size = { width=780 height=709 }
 			
 			
 			background = {
@@ -56,7 +56,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_building_entries"
-				position = { x = 155 y = 43 }
+				position = { x = 155 y = 45 }
 				size = { width = 480 height = 105 }
 				format = "UPPER_LEFT"
 				slotsize = { width = 137 height = 52 }
@@ -65,7 +65,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "shared_slot_count"
-				position = { x = 194 y = 304 }
+				position = { x = 194 y = 357 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				text = "SLOTS"
@@ -76,7 +76,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_shared_slot_building_entries"
-				position = { x = 152 y = 328 }
+				position = { x = 152 y = 381 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
 				slotsize = { width = 55 height = 46 }
@@ -160,7 +160,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "state_resources"
-				position = { x= 22 y=461}
+				position = { x= 26 y=513}
 				size = { width=135 height=99 }
 				
 				
@@ -171,10 +171,10 @@ guiTypes = {
 			
 				gridBoxType = {
 					name = "state_resources_entries"
-					position = { x = -42 y = -3 }
+					position = { x = -42 y = -2 }
 					size = { width = 132 height = 60 }
 					format = "UPPER_LEFT"
-					slotsize = { width = 52 height = 30 }
+					slotsize = { width = 50 height = 31 }
 					max_slots_horizontal = 2
 					max_slots_vertical = 3
 					
@@ -278,14 +278,14 @@ guiTypes = {
 			
 			iconType = {
 				name = "terrain_picture"
-				position = { x = 10 y= -27 }
+				position = { x = 10 y= 26 }
 				spriteType = "GFX_terrain_default"
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name = "province_header"
-				position = { x = 6 y= -34 }
+				position = { x = 6 y= 19 }
 				spriteType = "GFX_province_header"
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
@@ -293,7 +293,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "province"
-				position = { x = 23 y= -29 }
+				position = { x = 23 y= 25 }
 				font = "hoi_18mbs"
 				maxWidth = 80
 				maxHeight = 30
@@ -302,7 +302,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "province_required_rule"
-				position = { x = 100 y = -3 }
+				position = { x = 100 y = 50 }
 				spriteType = "GFX_required_rule"
 				Orientation = "UPPER_LEFT"
 			}	
@@ -315,6 +315,14 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
+			iconType = {
+				name = "modifiers_snow_icons"
+				position = { x = 0 y= 0 }
+				spriteType = "GFX_modifiers_snow_icons"
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
+
 			iconType = {
 				name = "modifiers_weather_icons"
 				position = { x = 0 y= 0 }
@@ -340,7 +348,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "dynamic_modifiers_grid"
-				position = { x = 423 y = 71 }
+				position = { x = 420 y = 118 }
 				size = { width = 0 height = 0 }
 				format = "LOWER_LEFT"
 				slotsize = { width = 40 height = 47 }
@@ -369,43 +377,51 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "province_building_entries"
-				position = { x = 12 y = 52 }
+				position = { x = 12 y = 105 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 130 height = 54 }
-				max_slots_horizontal = 3
+				slotsize = { width = 102 height = 54 }
+				max_slots_horizontal = 4
 			}
 			
 			buttonType = {
 				name = "nuke_province"
 				quadTextureSprite ="GFX_nuke_button"
-				position = { x= 13 y = -11 }
+				position = { x= 13 y = 42 }
 			}
 			
 			iconType = {
 				name = "nuclear_strike_bar"
 				spriteType = "GFX_nuke_progress"
-				position = { x=23 y= 27 }
+				position = { x=23 y= 80 }
 				rotation = 1.5708		
 			}	
 			
 			iconType = {
 				name = "nuke_progress_frame"
 				spriteType = "GFX_nuke_progress_frame"
-				position = { x=15 y= -6 }	
+				position = { x=15 y= 47 }	
 			}				
 			
 		}	
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -36 y = 11 }
+			position = { x = -36 y = 12 }
 			quadTextureSprite ="GFX_closebutton_small"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
+		}
+		
+		buttonType = {
+			name = "scorched_earth_state_button"
+			position = { x = -37 y = 347 }
+			quadTextureSprite ="GFX_scorched_earth"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
 		}
 	}
 	
@@ -417,14 +433,14 @@ guiTypes = {
 		guibuttonType = {
 			name = "core_country_flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x= 0 y = 0 }
+			position = { x= 0 y = 1 }
 			#Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="core_flag_border"
 			quadTextureSprite = "GFX_small_flag_frame_thin"
-			position = { x= -2 y = -1 }
+			position = { x= -3 y = -1 }
 			alwaystransparent = yes
 		}
 	}
@@ -518,18 +534,18 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			spriteType ="GFX_building_entry_stateview"
+			spriteType ="GFX_building_entry_stateview11"
 		}
 		
 		iconType = {
 			name = "level_bg"
-			position = { x=65 y=11 }	
-			spriteType = "GFX_generic_text_bg_60"
+			position = { x=60 y=11 }	
+			spriteType = "GFX_generic_text_bg_233"
 		}
 		
 		instantTextboxType = {
 			name = "level"
-			position = { x = 45 y = 14 }
+			position = { x = 30 y = 14 }
 			font = "hoi_20b"
 			maxWidth = 100
 			maxHeight = 100
@@ -539,7 +555,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "building_picture"
-			position = { x = 13 y = 3 }
+			position = { x = 11 y = 3 }
 			quadTextureSprite ="GFX_buildings_strip"
 		}
 		
@@ -560,13 +576,13 @@ guiTypes = {
 		
 		iconType = {
 			name = "resource"
-			position = { x=53 y=8 }	
+			position = { x=50 y=8 }	
 			spriteType = "GFX_resources_strip"
 		}
 		
 		instantTextboxType = {
 			name = "amount"
-			position = { x = 70 y = 12 }
+			position = { x = 67 y = 12 }
 			font = "hoi_20b"
 			maxWidth = 37
 			maxHeight = 18

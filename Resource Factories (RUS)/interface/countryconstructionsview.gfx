@@ -16,7 +16,20 @@ spriteTypes = {
 		animation_rate_fps = 24
 		looping = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes		
+		alwaystransparent = yes		
+	}
+
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_construction_line_glow"
+		texturefile = "gfx/interface/construction_line_glow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 3
+		looping = no
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
 	spriteType = {
@@ -32,6 +45,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_state_constructions"
 		textureFile = "gfx//interface//state_constructions.dds"
+	}
+	spriteType = {
+		name = "GFX_constructions_bg4"
+		textureFile = "gfx//interface//constructions_bg4.dds"
 	}
 
 	spriteType = {
@@ -119,7 +136,7 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}	
 	
@@ -131,7 +148,7 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}		
 	
@@ -165,7 +182,7 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}		
 	
@@ -177,7 +194,7 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
@@ -189,7 +206,7 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
